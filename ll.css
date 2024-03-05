@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(33, 111, 201);
+    width: 100%;
+    color: white;
+    
+}
+
+h1,p{
+    text-align: center;
+    /* margin-left: 100px; */
+    
+} 
+h1{
+    font-size: 70px;
+    margin-bottom: 6px;
+}
+p{
+    margin-top: 0;
+    font-size: 2em;
+    font-style: italic;
+    margin-bottom: 0;
+}
+input{
+    cursor: pointer;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+    background-color: rgb(33, 111, 201);
+}
+form{
+    margin-left: 30px;
+    background-color: rgb(16, 114, 114);
+    border-radius: 13px; 
+    margin-top: 6px;
+}
+fieldset{
+    border: none;
+   margin-bottom: 20px;
+    /* margin-left: 80px; */
+    margin-top: 40px; 
+    padding: 30px;
+}
+legend{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+}
+
+.bb{
+    text-decoration: underline;
+    color: rgb(68, 4, 60);
+    text-align: center;
+}
+.dog{
+    /* display: block; */
+    font-size: 30px;
+    /* margin-right: 20px; */
+    margin-top:10px;
+}
+.we::placeholder{
+    padding: 10px;
+}
+.we{
+    margin-left: 20px;
+    width: 600px;
+    padding-left: 30px;
+    height: 45px;
+    display: block;
+    background-color: rgb(228, 228, 231);
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.we:hover{
+    background-color: black;
+    color: white;
+}
+
+select{
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    color: gray;
+    padding-top: 3px;
+    border: none;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(228, 228, 231);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+option{
+ margin-left: 20px;
+}
+
+
+.ss{
+    display: block;
+    margin-left: 0;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+#yes, #no{
+    height:20px;
+    width: 20px
+}
+
+#yes{
+    margin-bottom: 30px;
+}
+
+.gay{
+    display: block;
+    margin-bottom: 20px;
+   margin-left: 30px;
+    font-size: 30px;
+}
+input.ll{
+    height: 20px;
+    width: 50px;
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+    background-color: rgb(127, 158, 170);
+    color: rgb(246, 248, 250);
+    font-size: 23px;
+}
+
+
+#submit{
+    padding: 7px 15px;
+    border: 2px solid black;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 22px;
+    transition: 0.3s all ease;
+}
+
+#submit:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 3px blueviolet;
+}
+#submit:active{
+    background-color: white;
+    color: black;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
